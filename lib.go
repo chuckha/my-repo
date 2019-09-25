@@ -1,5 +1,5 @@
 package my_repo
 
-func MyRepo() string {
-	return "i am a string"
+func MyRepo() (string, error) {
+	return "i am a string", nil
 }
