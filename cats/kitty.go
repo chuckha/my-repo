@@ -1,5 +1,7 @@
 package cats
 
-func Meow() string {
-	return "meow"
+import "strings"
+
+func Meow(repeat int) string {
+	return strings.Repeat("meow", repeat)
 }
